@@ -1,0 +1,30 @@
+.header {
+  width: 100vw;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: center; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.header_content {
+  width: 100vw;
+  display: flex;
+  background-color: transparent;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 12px;
+
+  /* border: 1px solid red; */
+}
+
+.header_logo img {
+  width: 80px;
+}
+
+.header_profile img {
+  width: 30px;
+}
